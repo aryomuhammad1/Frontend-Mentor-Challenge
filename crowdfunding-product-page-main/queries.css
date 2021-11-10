@@ -1,0 +1,215 @@
+/* 
+RESPON TO TABLET (560px) 
+ */
+
+@media (min-width: 37em) {
+    .card {
+        padding: 3.2rem;
+    }
+    .modal.modal-thanks {
+        left: 15%;
+        right: 15%;
+    }
+    .modal-thanks .btn {
+        margin-bottom: 0;
+    }
+    .statistics {
+        flex-direction: row;
+        gap: 8.8rem;
+    }
+    .pledge--heading {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2.4rem;
+    }
+    .pledge--footer {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .btn-pledge,
+    .btn-pledge:link,
+    .btn-pledge:visited {
+        font-size: 1.2rem;
+        padding: 1.6rem 3.2rem;
+    }
+    .pledge_modal {
+        position: relative;
+    }
+    .pledge_modal .slot {
+        position: absolute;
+        top: 1.8rem;
+        right: 2.4rem;
+    }
+    .selected .pledge--input {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pledge-no-reward.selected .pledge--input {
+        flex-direction: row;
+        justify-content: end;
+    }
+    .pledge--form {
+        justify-content: end;
+        gap: 0.8rem;
+    }
+    .pledge--form input {
+        width: 24%;
+        padding-left: 2rem;
+    }
+    .pledge-no-reward .btn-continue,
+    .pledge-no-reward .btn-continue:link,
+    .pledge-no-reward .btn-continue:visited {
+        width: 20%;
+        font-size: 1rem;
+    }
+    .btn-continue,
+    .btn-continue:link,
+    .btn-continue:visited {
+        width: 26%;
+        font-size: 1rem;
+    }
+}
+
+
+/* 
+RESPON TO LAPTOP (700px) 
+ */
+
+@media (min-width: 44em) {
+    html {
+        font-size: 68.8%;
+    }
+    .header {
+        padding: 3.2rem 6.4rem;
+    }
+    .nav {
+        position: inherit;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+    .nav ul {
+        flex-direction: row;
+        gap: 0.8rem;
+    }
+    .nav li {
+        padding: 1.2rem;
+    }
+    .nav li:not(:last-child) {
+        border-bottom: none;
+    }
+    .nav-link:link,
+    .nav-link:visited {
+        font-weight: 500;
+        color: rgb(238, 238, 238);
+    }
+    .nav-link:hover,
+    .nav-link:active {
+        border-bottom: 1px solid rgba(238, 238, 238, 0.171);
+    }
+    .nav-close,
+    .nav-open {
+        display: none;
+    }
+    .main {
+        padding: 0;
+    }
+    .container {
+        max-width: 80%;
+    }
+    .btn-back,
+    .btn-back:link,
+    .btn-back:visited {
+        padding: 1.6rem 3.6rem;
+    }
+    .modal {
+        transform: translateY(-16rem);
+    }
+    .modal.modal-thanks {
+        transform: translateY(6rem);
+    }
+    .pledge_modal>.desc {
+        margin-left: 3.2rem;
+    }
+    .pledge--form input {
+        width: 26%;
+    }
+    .btn-continue,
+    .btn-continue:link,
+    .btn-continue:visited {
+        width: 30%;
+        padding: 1rem 1.1rem;
+    }
+}
+
+
+/* 
+RESPON TO LAPTOP (900px) 
+ */
+
+@media (min-width: 56em) {
+    html {
+        font-size: 75%;
+    }
+    .header {
+        padding: 4.8rem 13.6rem;
+    }
+    .modal.modal-thanks {
+        left: 25%;
+        right: 25%;
+    }
+    .container {
+        max-width: 65%;
+    }
+    .statistics {
+        gap: 9rem;
+    }
+    .pledge--form input {
+        width: 30%;
+    }
+    .btn-continue,
+    .btn-continue:link,
+    .btn-continue:visited {
+        width: 35%;
+        padding: 1.1rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+
+/* 
+RESPON TO LAPTOP (1200px) 
+ */
+
+@media (min-width: 75em) {
+    .hero {
+        background-image: url("images/image-hero-desktop.jpg");
+        background-size: cover;
+        background-position: 90%;
+    }
+    .modal.modal-thanks {
+        left: 30%;
+        right: 30%;
+    }
+    .container {
+        max-width: 55%;
+    }
+}
+
+
+/* 
+RESPON TO DESKTOP (1300px) 
+ */
+
+@media (min-width: 81em) {
+    .container {
+        max-width: 50%;
+    }
+}
+
+
+/* - Font sizes (px) 
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
